@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- =--------------start header section------- -->
+    <header>
+        <div class="user">
+            <img src="img/sunita.jpg" alt="myImg">
+            <h3 class="name">sunita verma</h3>
+            <p class="post">front end devloper</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#service">SERVICE</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- =--------------end header section------- -->
+
+    <!-- -----------content section start--------------- -->
+ 
+    <div class="container">
+        <section class="home" id="home">
+            <h3>hi there.....</h3>
+            <h3 class="name">my name is <span>sunita verma</span></h3>
+            <h3 class="post">i am a <span class="typing text">Front end developer</span></h3>
+            <a href="#"><button class="btn">hire me</button></a>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </section>
+        <!-- -----------content section end--------------- -->
+
+        <!-- --------- about section------- -->
+        <section class="about" id="about">
+            <h1 class="heading">about me</h1>
+            <div class="content">
+                <h3 class="name">my name is <span>sunita verma</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit optio rem nihil, repudiandae porro
+                    veniam
+                    aliquam totam commodi laudantium magni quod rerum. Esse sapiente adipisci, harum quae odio delectus
+                    praesentium?</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et corporis natus ex libero expedita
+                    pariatur laudantium reiciendis repellat maiores eveniet, totam tenetur architecto aliquam impedit
+                    voluptatum voluptate vitae temporibus.</p> -->
+            </div>
+            <div class="skills">
+                <div class="progress">
+                    <h3>html <span>95%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>Css <span>85%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>Javascript <span>65%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>bootstrap <span>60%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>Jquery <span>30%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>php <span>50%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>MySQL <span>45%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <!-- --------- about section end------- -->
+
+    <!-- -----------type.js cdn link---- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+        var type = new typed('.typing-text', {
+            Strings: ['web designer', 'front end developer', 'backend developer'],
+            typeSpeed: 120,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
